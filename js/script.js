@@ -22,17 +22,6 @@
       })
       .done(function(res) {
         Amplitude.init(res);
-
-        $.ajax({
-          url: res.songs[1].url,
-          dataType: 'blob'
-        })
-          .done(function (e) {
-            console.log(e);
-          })
-          .fail(function (e) {
-            console.log(e);
-          });
       })
       .fail(function() {
         console.log('error');
