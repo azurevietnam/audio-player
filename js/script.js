@@ -16,7 +16,7 @@
     callData: function() {
       // var seft = this;
       $.ajax({
-          url: 'html-player-audio/data/data.json',
+          url: 'data/data.json',
           type: 'GET',
           dataType: 'json'
         })
