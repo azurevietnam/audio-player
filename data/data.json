@@ -1,26 +1,24 @@
 {
-  "songs":[
-    {
-      "track" : 1,
-      "name": "Đoản xuân ca",
-      "artist": "Bích Phương",
-      "album": "Bao Giờ Lấy Chồng?",
-      "cover_art_url": "../images/album-cover.jpg",
-      "url": "../media/DoanXuanCa-BichPhuong.mp3"
-    },{
-      "track" : 2,
-      "name": "Ngày xuân long phụng xum vầy",
-      "artist": "Bích Phương",
-      "album": "Bao Giờ Lấy Chồng?",
-      "cover_art_url": "../images/album-cover.jpg",
-      "url": "../media/NgayXuanLongPhungSumVay-BichPhuong.mp3"
-    },{
-      "track" : 3,
-      "name": "Xuân ơi xuân, xuân đã về",
-      "artist": "Bích Phương",
-      "album": "Bao Giờ Lấy Chồng?",
-      "cover_art_url": "../images/album-cover.jpg",
-      "url": "../media/MuaXuanOi-BichPhuong.mp3"
-    }
-  ]
+  "songs": [{
+    "track": 1,
+    "name": "Đoản xuân ca",
+    "artist": "Bích Phương",
+    "album": "Bao Giờ Lấy Chồng?",
+    "cover_art_url": "html-player-audio/images/album-cover.jpg",
+    "url": "html-player-audio/media/DoanXuanCa-BichPhuong.mp3"
+  }, {
+    "track": 2,
+    "name": "Ngày xuân long phụng xum vầy",
+    "artist": "Bích Phương",
+    "album": "Bao Giờ Lấy Chồng?",
+    "cover_art_url": "html-player-audio/images/album-cover.jpg",
+    "url": "html-player-audio/media/NgayXuanLongPhungSumVay-BichPhuong.mp3"
+  }, {
+    "track": 3,
+    "name": "Xuân ơi xuân, xuân đã về",
+    "artist": "Bích Phương",
+    "album": "Bao Giờ Lấy Chồng?",
+    "cover_art_url": "html-player-audio/images/album-cover.jpg",
+    "url": "html-player-audio/media/MuaXuanOi-BichPhuong.mp3"
+  }]
 }
