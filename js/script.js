@@ -1,8 +1,9 @@
-
-;(function($, window, Amplitude) {
+;
+(function($, window, Amplitude) {
   'use strict';
 
   var pluginName = 'player';
+
   function Plugin(element, options) {
     this.element = $(element);
     this.options = $.extend({}, $.fn[pluginName].defaults, this.element.data(), options);
@@ -16,16 +17,16 @@
     callData: function() {
       // var seft = this;
       $.ajax({
-        url: '../data/data.json',
-        type: 'GET',
-        dataType: 'json'
-      })
-      .done(function(res) {
-        Amplitude.init(res);
-      })
-      .fail(function() {
-        console.log('error');
-      });
+          url: '/html-player-audio/data/data.json',
+          type: 'GET',
+          dataType: 'json'
+        })
+        .done(function(res) {
+          Amplitude.init(res);
+        })
+        .fail(function() {
+          console.log('error');
+        });
     },
     destroy: function() {
       $.removeData(this.element[0], pluginName);
