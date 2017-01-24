@@ -1,5 +1,4 @@
-;
-(function($, window, Amplitude) {
+;(function($, window, Amplitude) {
   'use strict';
 
   var pluginName = 'player';
@@ -27,6 +26,10 @@
         .fail(function() {
           console.log('error');
         });
+      Amplitude.registerVisualization(BarVisualization, {
+        width: '314',
+        height: '314'
+      });
     },
     destroy: function() {
       $.removeData(this.element[0], pluginName);

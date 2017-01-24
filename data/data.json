@@ -20,5 +20,6 @@
     "album": "Bao Giờ Lấy Chồng?",
     "cover_art_url": "images/album-cover.jpg",
     "url": "media/MuaXuanOi-BichPhuong.mp3"
-  }]
+  }],
+  "autoplay": true,
 }
