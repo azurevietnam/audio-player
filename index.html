@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Media Player</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="favicon-16x16.png" type="image/x-icon" sizes="16x16">
+    <!-- build:css css/style.css-->
+    <link rel="stylesheet" href="style/libs.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/print.css">
+    <!-- endbuild-->
+    <script src="js/modernizr.js"></script>
+  </head>
+  <body class="sm-player">
+    <div class="container">
+      <section>
+        <div class="wrapper">
+          <div class="media-player" data-player>
+            <div class="info">
+              <div class="album-cover"><img class="img-responsive" src="images/album-cover.jpg" alt="" amplitude-song-info="cover"></div>
+              <div class="media-control">
+                <div class="media-status">
+                  <hgroup class="song-info">
+                    <h3 class="title" amplitude-song-info="name">Bao giờ lấy chồng</h3><span class="artist" amplitude-song-info="artist">Bích Phương</span>
+                  </hgroup>
+                  <div class="albums-info"><span class="album">Album:</span><span class="album-title" amplitude-song-info="album">Bao giờ lấy chồng</span></div>
+                  <div class="duration">
+                    <div class="start"><span class="amplitude-current-minutes" amplitude-single-current-minutes="true">00</span><span class="amplitude-current-seconds" amplitude-single-current-seconds="true">00</span></div>
+                    <div class="end"><span class="amplitude-duration-minutes" amplitude-single-duration-minutes="true">00</span><span class="amplitude-duration-minutes" amplitude-single-duration-seconds="true">00</span></div>
+                  </div>
+                  <div class="seekbar amplitude-song-time-visualization" amplitude-single-song-time-visualization="true">
+                    <div class="bar-status samplitude-song-time-visualization-status"></div>
+                  </div>
+                  <div class="button-control">
+                    <button class="btn btn-prev ampltiude-prev" type="button"><span class="fa fa-fast-backward" aria-hidden="true"></span></button>
+                    <button class="btn btn-play amplitude-play-pause amplitude-paused" type="button" amplitude-main-play-pause="true"><span class="fa fa-play" aria-hidden="true"></span></button>
+                    <button class="btn btn-next amplitude-next" type="button"><span class="fa fa-fast-forward" aria-hidden="true"></span></button>
+                    <div class="volume" data-volume><span class="fa fa-volume-up" aria-hidden="true"></span>
+                      <input class="volume-control amplitude-volume-slider" type="range" value="0">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- build:js js/script.js-->
+    <script src="js/l10n.js"></script>
+    <script src="js/libs.js"></script>
+    <script src="js/script.js"></script>
+    <!-- endbuild-->
+    <!-- build:development-only-->
+    <script src="//localhost:35729/livereload.js"></script>
+    <!-- endbuild-->
+    <!--[if lte IE 9]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
+    <noscript>JavaScript is off. Please enable to view full site.</noscript>
+  </body>
+</html>
